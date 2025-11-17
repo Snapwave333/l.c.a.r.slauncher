@@ -49,11 +49,38 @@ fun LcarsQuickActionsRailRight(
         Spacer(modifier = Modifier.height(8.dp))
 
         LcarsRailItem(
+            label = "FLASHLIGHT",
+            onClick = { viewModel.toggleFlashlight() },
+            color = LcarsTheme.palette.accentYellow,
+            icon = {
+                Icon(
+                    imageVector = Icons.Default.Flashlight,
+                    contentDescription = "Flashlight",
+                    tint = LcarsTheme.palette.textOnPanel
+                )
+            }
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        LcarsRailItem(
+            label = "CAMERA",
+            onClick = { viewModel.launchCamera() },
+            color = LcarsTheme.palette.accentCyan,
+            icon = {
+                Icon(
+                    imageVector = Icons.Default.CameraAlt,
+                    contentDescription = "Camera",
+                    tint = LcarsTheme.palette.textOnPanel
+                )
+            }
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        LcarsRailItem(
             label = "WIFI",
-            onClick = {
-                // Open WiFi settings
-                context.startActivity(Intent(android.provider.Settings.ACTION_WIFI_SETTINGS))
-            },
+            onClick = { viewModel.toggleWifi() },
             color = LcarsTheme.palette.accentCyan,
             icon = {
                 Icon(
