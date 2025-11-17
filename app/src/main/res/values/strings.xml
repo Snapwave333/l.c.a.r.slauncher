@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LCARS Launcher</string>
+    <string name="settings">Settings</string>
+
+    <!-- Deck names -->
+    <string name="deck_bridge">BRIDGE</string>
+    <string name="deck_engineering">ENGINEERING</string>
+    <string name="deck_tactical">TACTICAL</string>
+
+    <!-- Profile names -->
+    <string name="profile_bridge">BRIDGE MODE</string>
+    <string name="profile_engineering">ENGINEERING MODE</string>
+    <string name="profile_tactical">TACTICAL MODE</string>
+    <string name="profile_red_alert">RED ALERT</string>
+    <string name="profile_night">NIGHT MODE</string>
+
+    <!-- UI Labels -->
+    <string name="apps">APPS</string>
+    <string name="search">SEARCH</string>
+    <string name="favorites">FAVORITES</string>
+    <string name="missions">MISSIONS</string>
+    <string name="widgets">WIDGETS</string>
+    <string name="status">STATUS</string>
+    <string name="quick_actions">QUICK ACTIONS</string>
+
+    <!-- Actions -->
+    <string name="flashlight">FLASHLIGHT</string>
+    <string name="wifi">WI-FI</string>
+    <string name="bluetooth">BLUETOOTH</string>
+    <string name="volume">VOLUME</string>
+    <string name="brightness">BRIGHTNESS</string>
+
+    <!-- Setup -->
+    <string name="setup_welcome">WELCOME TO LCARS LAUNCHER</string>
+    <string name="setup_description">Set LCARS Launcher as your default home screen to begin.</string>
+    <string name="setup_set_default">SET AS DEFAULT</string>
+    <string name="setup_skip">SKIP FOR NOW</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">APPEARANCE</string>
+    <string name="settings_behavior">BEHAVIOR</string>
+    <string name="settings_gestures">GESTURES</string>
+    <string name="settings_sound">SOUND &amp; HAPTICS</string>
+    <string name="settings_advanced">ADVANCED</string>
+
+    <!-- Time format -->
+    <string name="time_format">HH:mm</string>
+    <string name="date_format">EEE, MMM d</string>
+    <string name="stardate_format">Stardate %s</string>
+
+    <!-- Accessibility -->
+    <string name="cd_app_icon">App icon</string>
+    <string name="cd_panel">LCARS panel</string>
+    <string name="cd_deck_indicator">Deck indicator</string>
+</resources>

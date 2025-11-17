@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base LCARS Colors -->
+    <color name="lcars_black">#000000</color>
+    <color name="lcars_dark_blue">#0B0D2B</color>
+
+    <!-- LCARS Palette - Base -->
+    <color name="lcars_buff">#FFCC99</color>
+    <color name="lcars_orange">#FF9966</color>
+    <color name="lcars_magenta">#CC6699</color>
+    <color name="lcars_blue">#9999FF</color>
+    <color name="lcars_cyan">#66CCFF</color>
+    <color name="lcars_yellow">#FFFF99</color>
+
+    <!-- LCARS Alert Colors -->
+    <color name="lcars_red">#CC6666</color>
+    <color name="lcars_red_alert">#FF3333</color>
+
+    <!-- LCARS Status Colors -->
+    <color name="lcars_purple">#9966CC</color>
+    <color name="lcars_deep_blue">#336699</color>
+</resources>
